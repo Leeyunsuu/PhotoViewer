@@ -13,7 +13,27 @@
 		AFB68CE325E0D5F100AF2303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CE125E0D5F100AF2303 /* Main.storyboard */; };
 		AFB68CE525E0D5F200AF2303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CE425E0D5F200AF2303 /* Assets.xcassets */; };
 		AFB68CE825E0D5F200AF2303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CE625E0D5F200AF2303 /* LaunchScreen.storyboard */; };
+		AFB68CF325E0D99800AF2303 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CF025E0D99800AF2303 /* 1.jpg */; };
+		AFB68CF525E0D99800AF2303 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CF225E0D99800AF2303 /* 2.jpg */; };
+		AFB68CFE25E0E5D400AF2303 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFB68CFD25E0E5D400AF2303 /* 3.jpg */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB68D0425E0E92E00AF2303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB68D0025E0E92E00AF2303 /* ImageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B56A95AD254C5EA10021120F;
+			remoteInfo = ImageView;
+		};
+		AFB68D0C25E0E93A00AF2303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB68D0825E0E93A00AF2303 /* ImageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B56A95AD254C5EA10021120F;
+			remoteInfo = ImageView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AFB68CD825E0D5F100AF2303 /* PhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +44,11 @@
 		AFB68CE425E0D5F200AF2303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFB68CE725E0D5F200AF2303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFB68CE925E0D5F200AF2303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB68CF025E0D99800AF2303 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		AFB68CF225E0D99800AF2303 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		AFB68CFD25E0E5D400AF2303 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../Downloads/3.jpg; sourceTree = "<group>"; };
+		AFB68D0025E0E92E00AF2303 /* ImageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageView.xcodeproj; path = "../../../Downloads/3장/미션/ImageView.xcodeproj"; sourceTree = "<group>"; };
+		AFB68D0825E0E93A00AF2303 /* ImageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageView.xcodeproj; path = "../../../Downloads/3장/미션/ImageView.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +65,8 @@
 		AFB68CCF25E0D5F100AF2303 = {
 			isa = PBXGroup;
 			children = (
+				AFB68D0025E0E92E00AF2303 /* ImageView.xcodeproj */,
+				AFB68D0825E0E93A00AF2303 /* ImageView.xcodeproj */,
 				AFB68CDA25E0D5F100AF2303 /* PhotoViewer */,
 				AFB68CD925E0D5F100AF2303 /* Products */,
 			);
@@ -56,6 +83,9 @@
 		AFB68CDA25E0D5F100AF2303 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				AFB68CFD25E0E5D400AF2303 /* 3.jpg */,
+				AFB68CF025E0D99800AF2303 /* 1.jpg */,
+				AFB68CF225E0D99800AF2303 /* 2.jpg */,
 				AFB68CDB25E0D5F100AF2303 /* AppDelegate.swift */,
 				AFB68CDD25E0D5F100AF2303 /* SceneDelegate.swift */,
 				AFB68CDF25E0D5F100AF2303 /* ViewController.swift */,
@@ -65,6 +95,22 @@
 				AFB68CE925E0D5F200AF2303 /* Info.plist */,
 			);
 			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		AFB68D0125E0E92E00AF2303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB68D0525E0E92E00AF2303 /* ImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB68D0925E0E93A00AF2303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB68D0D25E0E93A00AF2303 /* ImageView.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +158,16 @@
 			mainGroup = AFB68CCF25E0D5F100AF2303;
 			productRefGroup = AFB68CD925E0D5F100AF2303 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AFB68D0125E0E92E00AF2303 /* Products */;
+					ProjectRef = AFB68D0025E0E92E00AF2303 /* ImageView.xcodeproj */;
+				},
+				{
+					ProductGroup = AFB68D0925E0E93A00AF2303 /* Products */;
+					ProjectRef = AFB68D0825E0E93A00AF2303 /* ImageView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AFB68CD725E0D5F100AF2303 /* PhotoViewer */,
@@ -119,12 +175,32 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		AFB68D0525E0E92E00AF2303 /* ImageView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ImageView.app;
+			remoteRef = AFB68D0425E0E92E00AF2303 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AFB68D0D25E0E93A00AF2303 /* ImageView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ImageView.app;
+			remoteRef = AFB68D0C25E0E93A00AF2303 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		AFB68CD625E0D5F100AF2303 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFB68CF525E0D99800AF2303 /* 2.jpg in Resources */,
 				AFB68CE825E0D5F200AF2303 /* LaunchScreen.storyboard in Resources */,
+				AFB68CF325E0D99800AF2303 /* 1.jpg in Resources */,
+				AFB68CFE25E0E5D400AF2303 /* 3.jpg in Resources */,
 				AFB68CE525E0D5F200AF2303 /* Assets.xcassets in Resources */,
 				AFB68CE325E0D5F100AF2303 /* Main.storyboard in Resources */,
 			);
