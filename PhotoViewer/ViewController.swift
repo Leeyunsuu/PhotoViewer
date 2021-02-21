@@ -11,8 +11,7 @@ class ViewController: UIViewController {
   var img1: UIImage?
   var numImage: Int = 1
   let maxImage: Int = 3
-
-
+  
   @IBOutlet var imgViewer: UIImageView!
   @IBOutlet var btnPrev: UIButton!
   @IBOutlet var btnNex: UIButton!
