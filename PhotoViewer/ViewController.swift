@@ -10,12 +10,13 @@ import UIKit
 class ViewController: UIViewController {
   var img1: UIImage?
   var numImage: Int = 1
-  let maxImage: Int = 3
-  
+  let maxImage: Int = 2
+
   @IBOutlet var imgViewer: UIImageView!
   @IBOutlet var btnPrev: UIButton!
   @IBOutlet var btnNex: UIButton!
-
+  @IBOutlet var btnChange: UIButton!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
     numImage = numImage - 1
     if (numImage == 1) {
       btnPrev.setTitle("마지막", for: .normal)
-    } else{
+    } else {
       btnPrev.setTitle("이전", for: .normal)
       btnNex.setTitle("다음", for: .normal)
     }
@@ -57,5 +58,8 @@ class ViewController: UIViewController {
 
   }
 
+  @IBAction func viewChange(_ sender: UIButton) {
+    self.performSegue(withIdentifier: "showSegue", sender: self)
+  }
 }
 
